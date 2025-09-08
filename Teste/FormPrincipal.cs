@@ -13,9 +13,9 @@ using System.Windows.Forms;
 
 namespace Teste
 {
-    public partial class Form1 : Form
+    public partial class formPrincipal : Form
     {
-        public Form1()
+        public formPrincipal()
         {
             InitializeComponent();
         }
@@ -68,7 +68,7 @@ namespace Teste
 
         private void button1_Click(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = load();
+            gridBD.DataSource = load();
         }
         private BindingSource load()
         {

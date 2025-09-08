@@ -1,6 +1,6 @@
 ﻿namespace Teste
 {
-    partial class Form1
+    partial class formPrincipal
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -35,10 +35,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.btnCad = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.gridBD = new System.Windows.Forms.DataGridView();
             this.btnAtu = new System.Windows.Forms.Button();
             this.lblTitulo = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridBD)).BeginInit();
             this.SuspendLayout();
             // 
             // txtIdade
@@ -109,13 +109,13 @@
             this.btnCad.UseVisualStyleBackColor = true;
             this.btnCad.Click += new System.EventHandler(this.btnCad_Click);
             // 
-            // dataGridView1
+            // gridBD
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(411, 37);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(336, 246);
-            this.dataGridView1.TabIndex = 7;
+            this.gridBD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridBD.Location = new System.Drawing.Point(411, 37);
+            this.gridBD.Name = "gridBD";
+            this.gridBD.Size = new System.Drawing.Size(336, 246);
+            this.gridBD.TabIndex = 7;
             // 
             // btnAtu
             // 
@@ -138,14 +138,14 @@
             this.lblTitulo.TabIndex = 9;
             this.lblTitulo.Text = "CADASTRO DE PESSOAS";
             // 
-            // Form1
+            // formPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 361);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.btnAtu);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.gridBD);
             this.Controls.Add(this.btnCad);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -153,10 +153,10 @@
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtIdade);
             this.Controls.Add(this.txtNome);
-            this.Name = "Form1";
+            this.Name = "formPrincipal";
             this.Text = "Cadastro de Pessoas";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridBD)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -171,7 +171,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Button btnCad;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView gridBD;
         private System.Windows.Forms.Button btnAtu;
         private System.Windows.Forms.Label lblTitulo;
     }
